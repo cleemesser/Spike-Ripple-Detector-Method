@@ -15,3 +15,9 @@ For example:
  t  = (1:length(EEG))/Fs; %corresponding time axis.
  [res] = spike_ripple_detector(EEG,t);  %Call the function, and return the candidate spike-ripple events.
  </code></pre>
+
+
+### Fork Purpose: port to python
+- [ ] review source paper
+- [ ] python encoding
+- [ ] encorporate with MNE
